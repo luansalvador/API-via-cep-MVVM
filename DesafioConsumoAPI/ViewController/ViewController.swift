@@ -19,8 +19,7 @@ final class ViewController: UIViewController {
 
     func setupView() {
         self.view = mainView
-        mainView.searchAction = clickedSearch
-        
+        mainView.searchAction = clickedSearch        
     }
     
     func clickedSearch() {

@@ -16,8 +16,7 @@ final class MainView: UIView {
         view.text = "Consultor de CEP"
         view.textColor = .white
         view.font = view.font.withSize(30)
-        view.translatesAutoresizingMaskIntoConstraints = false
-        
+        view.translatesAutoresizingMaskIntoConstraints = false        
         return view
     }()
     
@@ -26,7 +25,6 @@ final class MainView: UIView {
         view.backgroundColor = .white
         view.placeholder = "Digite um CEP"
         view.translatesAutoresizingMaskIntoConstraints = false
-        
         return view
     }()
     
@@ -37,7 +35,6 @@ final class MainView: UIView {
         view.layer.cornerRadius = 5
         view.addTarget(self, action: #selector(self.performSearch), for: .touchUpInside)
         view.translatesAutoresizingMaskIntoConstraints = false
-        
         return view
     }()
     
@@ -49,7 +46,6 @@ final class MainView: UIView {
         view.lineBreakMode = .byWordWrapping
         view.minimumScaleFactor = 0.5
         view.translatesAutoresizingMaskIntoConstraints = false
-        
         return view
     }()
     
@@ -61,7 +57,6 @@ final class MainView: UIView {
         view.lineBreakMode = .byWordWrapping
         view.minimumScaleFactor = 0.5
         view.translatesAutoresizingMaskIntoConstraints = false
-        
         return view
     }()
     
@@ -73,7 +68,6 @@ final class MainView: UIView {
         view.lineBreakMode = .byWordWrapping
         view.minimumScaleFactor = 0.5
         view.translatesAutoresizingMaskIntoConstraints = false
-        
         return view
     }()
     
@@ -95,7 +89,6 @@ final class MainView: UIView {
         self.addSubview(self.cityLabel)
         self.addSubview(self.dddLabel)
         self.addSubview(self.titleAppLabel)
-
     }
     
     public func confifureView() {
